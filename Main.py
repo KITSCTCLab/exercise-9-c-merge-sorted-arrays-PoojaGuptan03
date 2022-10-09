@@ -4,7 +4,7 @@ def merge(left_array: List[int], m: int, right_array: List[int], n: int) -> None
   # Write code here
   left_array= left_array[:m]
   right_array= right_array[:n]
-  data=[]
+  data=left_array + right_array
   i=0
   j=0
   k=0
